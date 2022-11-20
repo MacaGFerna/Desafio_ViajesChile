@@ -10,14 +10,16 @@
     <script src="https://kit.fontawesome.com/b555c95dd4.js" crossorigin="anonymous"></script>
     <!-- My stylesheet -->
     <link rel="stylesheet" href="./assets/css/stylesheet.css">
-    <title>Document</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/assets/img/viajes.svg">
+    <title>Viajes Chile</title>
 </head>
 <body>
     
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark pr-5 bg-dark">
+    <nav id="inicio" class="navbar navbar-expand-lg navbar-dark pr-5 bg-dark">
         <img class="imagen-viajes ms-2" src="./assets/img/viajes.svg" alt="logo" class="logo-viajes">  
-         <div id="Inicio" class="texto-viajes">
+         <div  class="texto-viajes">
              <p>Viajes Chile</p>
          </div>
           <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,10 +67,10 @@
 
 </section>
 <!-- Quienes somos -->
-<section class="somos">
-    <h1 id="quienesomos">¿QUIÉNES SOMOS?</h1>
-    <hr class =linea>
+<section id="quienessomos">
     <div class="container hidden-xs d-none d-md-block">
+      <h1 class="quienesomos">¿QUIÉNES SOMOS?</h1>
+      <hr class =linea>
         <div class="row pt-5">
             <div class="col">
                 <div class="parrafos">
@@ -100,11 +102,11 @@
 </section>
 
 <!-- Destacados  -->
-<section class="destacados">
-    <h2 id="destacados" class="destacados">DESTACADOS</h2>
+<section id="destacados">
+    <h2 class="destacados text-center pt-5 text-white">DESTACADOS</h2>
 <hr class =linea>
-<div class="container">
-<div class="row row-cols-1 row-cols-md-3 pt-5 test">
+<div class="container-fluid">
+<div class="row row-cols-1 row-cols-md-3 pt-5">
 	<div class="col-sm-12 col-md-3">
 <div class="card" style="width: 16rem;">
 	<img class="card-img-top" src="assets/img/card1.jpg" alt="Card image cap">
@@ -145,8 +147,8 @@
 
 <!-- Contactos -->
 
-<section class="contactos">
-    <h2 id="contacto" class="contacto pt-5 text-center text-white" >CONTACTO</h2>
+<section id="contactos">
+    <h2 class="contacto pt-5 text-center text-white" >CONTACTO</h2>
     <div class="mb-3 ps-5 pe-5 text-white">
         <label for="exampleFormControlInput1" class="form-label">Nombre</label>
         <input type="email" class="form-control" id="exampleFormControlInput1">
