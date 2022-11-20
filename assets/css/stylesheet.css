@@ -34,3 +34,20 @@ body {
 .sticky + .content {
     padding-top: 60px;
 }
+
+
+/* Quienes somos  */
+section h1 {
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+
+/* Destacados */
+
+.destacados h2 {
+    color: white;
+    padding-top: 60px;
+    text-align: center;
+    
+}
