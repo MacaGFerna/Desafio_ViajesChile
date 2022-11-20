@@ -35,6 +35,9 @@ body {
     padding-top: 60px;
 }
 
+#Incio #quienessomos #destacados #contacto {
+    scroll-behavior: smooth;
+  }
 
 /* Quienes somos  */
 section h1 {
@@ -49,5 +52,6 @@ section h1 {
     color: white;
     padding-top: 60px;
     text-align: center;
-    
+
 }
+
